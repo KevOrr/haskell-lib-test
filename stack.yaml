@@ -1,0 +1,9 @@
+resolver: lts-22.11
+compiler: ghc-9.6.4
+
+packages:
+  - .
+
+extra-deps:
+  - git: https://github.com/kevorr/haskell-lib-test
+    commit: _
