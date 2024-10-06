@@ -6,4 +6,4 @@ packages:
 
 extra-deps:
   - git: https://github.com/kevorr/haskell-lib-test
-    commit: _
+    commit: 20d7082fb09d318b71deb457599af4a25baa99fc
