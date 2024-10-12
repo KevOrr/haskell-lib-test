@@ -1,6 +1,6 @@
 module Main where
 
-import HaskellLibTest.Lib (printName)
+import HaskellLibTest.Wrapper (printName)
 
 main :: IO ()
 main = printName

@@ -2,16 +2,12 @@ name: haskell-lib-test-wrapper
 
 dependencies:
   - base >= 4.7 && < 5
+  - inline-c
 
 language: GHC2021
-
-include-dirs:
-  - include
 
 library:
   source-dirs:
     - src
-  build-tools:
-    - c2hs
   exposed-modules:
     - HaskellLibTest.Wrapper

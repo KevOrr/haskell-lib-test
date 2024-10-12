@@ -15,10 +15,7 @@ library
       Paths_haskell_lib_test_wrapper
   hs-source-dirs:
       src
-  include-dirs:
-      include
-  build-tools:
-      c2hs
   build-depends:
       base >=4.7 && <5
+    , inline-c
   default-language: GHC2021

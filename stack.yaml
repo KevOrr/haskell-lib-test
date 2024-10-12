@@ -6,4 +6,9 @@ packages:
 
 extra-deps:
   - git: https://github.com/kevorr/haskell-lib-test
-    commit: 20d7082fb09d318b71deb457599af4a25baa99fc
+    commit: 1c625ea3462fe957e23daefcf5bb98e410b7bff8
+    subdirs:
+      - haskell-wrapper
+
+extra-lib-dirs:
+  - /Users/kevin/work/bs/haskell-libs-test/lib/v2

@@ -6,8 +6,8 @@ dependencies:
 
 executables:
   app:
+    extra-libraries:
+      - lib
     source-dirs:
       - app
     main: Main.hs
-    extra-lib-dirs:
-      - ./lib/v1

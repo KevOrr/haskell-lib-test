@@ -14,6 +14,8 @@ executable app
       Paths_haskell_lib_test_user
   hs-source-dirs:
       app
+  extra-libraries:
+      lib
   build-depends:
       base >=4.7 && <5
     , haskell-lib-test-wrapper
